@@ -8,7 +8,7 @@ export default function Header() {
     <HeaderWrapper>
       <HeaderItemWrapper>
         {HeaderItemData.map((item, index) => (
-          <a href={item.link} key={index}>
+          <a href={item.link}>
             <HeaderItem>{item.title}</HeaderItem>
           </a>
         ))}

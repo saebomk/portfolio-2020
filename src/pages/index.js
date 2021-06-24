@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../components/layout/layout";
+import Layout from "../components/layout/Layout";
 import SEO from "../components/layout/seo";
 import ListWrapper from "../components/ListWrapper";
 import styled from "styled-components";
@@ -24,7 +24,7 @@ export default function IndexPage() {
           </IndexHeroDescription>
         </IndexHeroTitleGroup>
       </IndexHero>
-      <ListWrapper />
+      {/* <ListWrapper /> */}
     </Layout>
   );
 }
