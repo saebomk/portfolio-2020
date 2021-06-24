@@ -1,4 +1,3 @@
-import { Link } from "gatsby";
 import React from "react";
 import styled from "styled-components";
 import { HeaderItemData } from "../data/HeaderItemData";
@@ -80,9 +79,9 @@ export default function Header() {
     <HeaderWrapper>
       <HeaderItemWrapper>
         {HeaderItemData.map((item, index) => (
-          <Link to={item.link} key={index}>
+          <a href={item.link} key={index}>
             <HeaderItem>{item.title}</HeaderItem>
-          </Link>
+          </a>
         ))}
         <HeaderItem></HeaderItem>
       </HeaderItemWrapper>
