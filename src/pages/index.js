@@ -1,9 +1,8 @@
 import React from "react";
-import Layout from "../components/layout/layout";
+import Layout from "../components/layout/Layout";
 import SEO from "../components/layout/seo";
 import ListWrapper from "../components/ListWrapper";
 import styled from "styled-components";
-import Hero from "../components/Hero";
 import { DescriptionText, PageTitle } from "../components/styles/TextStyles";
 
 export default function IndexPage() {
@@ -21,11 +20,11 @@ export default function IndexPage() {
             My background in Human Computer Interaction and Multimedia Design made me adept in rapid prototyping, passionate in research, and always curious for new technology.
           </IndexHeroDescription>
           <IndexHeroDescription>
-          Extroverted introvert, Living in SF enjoying 🏃‍♀️ 💃 🏋️‍♀️ and 👩‍💻 ☕ 📚.
+          Extroverted introvert, Living in SF enjoying <span role="img" aria-label="running">🏃‍♀️</span> <span role="img" aria-label="dancing">💃</span> <span role="img" aria-label="crossfit">🏋️‍♀️</span> and <span role="img" aria-label="coding">👩‍💻</span> <span role="img" aria-label="coffee">☕</span> <span role="img" aria-label="reading">📚</span> .
           </IndexHeroDescription>
         </IndexHeroTitleGroup>
       </IndexHero>
-      <ListWrapper />
+      {/* <ListWrapper /> */}
     </Layout>
   );
 }
